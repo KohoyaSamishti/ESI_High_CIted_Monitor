@@ -1,0 +1,28 @@
+# Private inputs and generated ESI data
+papers.csv
+papers.numbers
+*.numbers
+esi_thresholds.csv
+.esi_state.json
+.esi_state.json.tmp
+reports/
+
+# Authenticated browser profile. Never commit this directory.
+.wos_session/
+
+# Local secrets
+.env
+.env.*
+!.env.example
+
+# Python and virtual environments
+__pycache__/
+*.py[cod]
+.venv/
+venv/
+
+# Editors and operating systems
+.DS_Store
+.idea/
+.vscode/
+*.log
